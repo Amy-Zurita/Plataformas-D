@@ -9,6 +9,8 @@
   <h1>FORMULARIO</h1>
 <p><strong>Ingrese sus Datos Personales:</strong></p>
 <form>
+<fieldset>
+<legend>Datos Personales</legend>
   <label for="inombre">Coloque sus nombres:</label><br>
   <input type="text" id="inombre" name="inombre"><br>
   <label for="iapellido">Coloque sus apellidos:</label><br>
@@ -17,8 +19,9 @@
   <input type="text" id="icorreo" name="icorreo"><br>
   <label for="icedula">Coloque su cedula:</label><br>
   <input type="text" id="icedula" name="icedula"><br>
+</fieldset>
 </form>
-
+<br>
 
 <p><strong>Seleccione su genero:</strong></p>
 
@@ -28,7 +31,7 @@
   <input type="radio" id="masculino" name="fav_language" value="MASCULINO">
   <label for="masculino">MASCULINO</label><br>
 </form>
-
+<br>
 
 <p><strong>Seleccione su Carrera Universitaria:</strong></p>
 
@@ -42,8 +45,9 @@
   </select>
   
 </form>
-
-<p><strong>Seleccione su curso:</strong></p>
+<br>
+<br>
+<p><strong>Seleccione su Curso Semestral:</strong></p>
 
 <form action="/Downloads/Formulario.html">
   <label for="Curso">Seleccione el curso:</label>
@@ -54,7 +58,22 @@
     <option value="Cuarto semestre">Cuarto semestre</option>
     <option value="Quinto semestre">Quinto semestre</option>
     <option value="Sexto semestre">Sexto semestre</option>
+    <option value="Septimo semestre">Septimo semestre</option>
+
   </select>
+<br>
+<br>
+<p><strong>Seleccione su Jornada:</strong></p>
+
+<form>
+  <input type="radio" id="Matutino" name="fav_language" value="MATUTINO">
+  <label for="Matutino">MATUTINO</label><br>
+  <input type="radio" id="Vespertino" name="fav_language" value="Vespertino">
+  <label for="Vespertino">VESPERTINO</label><br>
+  <input type="radio" id="Nocturno" name="fav_language" value="NOCTURNO">
+  <label for="Nocturno">NOCTURNO</label><br>
+</form>
+<br>
   <input type="submit">
 </form>
 
